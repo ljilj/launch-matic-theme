@@ -1,0 +1,341 @@
+/****   Download page style ****/
+.blog-bg {
+    background-image: url('../images/graph-blog_1.svg');
+    background-size: cover;
+    background-position:  center;
+    clear: both;
+    padding-bottom: 1px;
+}
+.design-bg {
+    position: relative
+}
+.design-bg::after {
+    background-image: url('../images/our-design.png');
+    background-size: contain;
+    background-position: top left;
+    content: "";
+    position: absolute;
+    height: 260%;
+    width: 100%;
+    top: -475px;
+    background-repeat: no-repeat;
+    left: 0;
+    z-index: -1;
+}
+.align-center{
+    align-items: center
+}
+.mobile-images img:first-of-type {
+    bottom: -70px;
+    position: relative;
+    left: 70px;
+    max-width: 100%;
+}
+.mobile-images img:last-of-type {
+    position: relative;
+    left: -70px;
+    z-index: 2;
+    max-width: 100%;
+    top: -50px;
+}
+.download-full{
+    background-image: url('../images/graph-blog-2.svg');
+    background-size: cover;
+    background-position:  center 90%;
+    clear: both;
+    padding-bottom: 1px;
+}
+.iphone-max-section{
+    position: relative
+}
+.iphone-max-section:after{
+    background-image: url('../images/download-right.png');
+    background-size: contain;
+    background-position: top left;
+    content: "";
+    position: absolute;
+    height: 260%;
+    width: 362px;
+    top: -625px;
+    background-repeat: no-repeat;
+    right: 0;
+    z-index: -1;
+}
+.bg-client {
+    position: relative;
+    padding: 80px 0
+}
+.bg-client::before {
+    background-image: url('../images/graph-about-3.png');
+    background-repeat: no-repeat;
+    background-position: left 20%;
+    background-size: auto;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -150px;
+    height: 100%;
+    width: 100%;
+}
+
+.top-img-2,
+.top-img-1{
+    position: absolute;
+    right: 0
+}
+
+/****   Blog Details Page style ****/
+
+.postthumbnail-header {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+.post-content h2 {
+    color: #262626 
+}
+
+.post-content {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 60px 0
+}
+.post-content p {
+    text-align: justify
+}
+
+.content-wrapper img {
+    border-radius: 30px;
+    margin: 30px auto
+}
+.meta.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meta.d-flex div {
+    padding: 10px 15px 20px;
+    font-weight: bold;
+    color: #6B6B6B;
+    text-transform: capitalize;
+    font-size: 20px;
+    opacity: 0.8;
+}
+.meta.d-flex div a{
+    color: #6B6B6B;
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
+    align-items: center
+}
+
+.author-info {
+    text-align: left;
+    padding:60px 0;
+    border-top: 2px solid #dcdcdc;
+    border-bottom: 2px solid #dcdcdc;
+    margin: 50px 0;
+}
+.author-thumbnail {
+    height: 96px;
+    width: 96px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.author-thumbnail img{
+    max-width: 100%
+}
+.author-bio-wrapper {
+    padding-left: 20px;
+}
+.author-bio-wrapper h4 {
+    margin: 0 0 10px;
+    text-transform: capitalize;
+    color: #262626;
+    opacity: 0.8;
+}
+.bg-related-post {
+    display: block;
+    border-radius: 5px;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.post-navigation ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 0 -10px
+}
+.post-navigation ul li{
+    padding: 10px;
+    width: 33.33%
+}
+.post-navigation ul li .d-flex {
+    justify-content: space-between;
+}
+.post-navigation ul li h5 {
+    text-align: left;
+    font-size: 16px;
+}
+.post-navigation ul li .post-date {
+    color: #888888;
+    font-weight: 500;
+    font-size: 14px;
+}
+.post-navigation ul li  a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #3600AA;
+    font-size: 15px;
+}
+.related-posts-wrapper {
+    padding: 40px 0;
+}
+.share-wrapper{
+    padding-top: 10px
+} 
+.share-wrapper h4{
+    color: #262626;
+    opacity: 0.8;
+    font-size: 20px;
+}
+body a.ss-button-facebook {
+    background-image: url('../images/facebook-icon.png');
+    background-position: center !important;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+body a.ss-button-linkedin {
+    background-image: url('../images/linkedin-icon.png');
+    background-position: center !important;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+body a.ss-button-twitter {
+    background-image: url('../images/twitter-icon.png');
+    background-position: center !important;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+body a.ss-button-facebook,
+body a.ss-button-twitter, 
+body a.ss-button-linkedin{
+    margin: 1% 20px 1% 0;
+
+}
+.mobile-bg,
+.show-mobile{
+    display: none
+}
+.post-item.card-grid-2 .d-flex {
+    justify-content: space-between;
+}
+
+.social-wrapper {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 10px;
+}
+.social-wrapper li {
+    padding-right: 20px;
+
+}
+.social-wrapper li img{
+    max-width: 30px;
+}
+.social-wrapper li:last-of-type{
+    padding-right: 0
+}
+.footer-section-line {
+    border-bottom: 1px solid #7a8391;
+    padding-bottom: 60px;
+}
+.mobile-menu{
+    display: none;
+}
+.bg-blog-thumbnail{
+    background-size: cover; 
+    background-position:  center 90%;
+    background-repeat: no-repeat;
+    height: 230px;
+    border-radius: 8px;
+    background-color: #ccc 
+}
+header .strech{
+    align-items: center
+}
+header .strech a{
+    line-height: 1
+}
+.post-navigation ul li a img {
+    max-width: 100%;
+}
+
+.home-banner p {
+    margin-bottom: 25px;
+    color:#6B6B6B
+}
+.blog-bg.fullwidth h2.center.padding-bottom-2 {
+    padding-bottom: 0.5em;
+}
+header .show-mobile {
+    position: relative;
+    height: 35px;
+    width: 35px;
+}
+header .show-mobile span {
+    height: 3px;
+    width: 35px;
+    margin-bottom: 10px;
+    background: #fff;
+    display: block;
+    transition: all ease-in-out 0.4s;
+    position: absolute;
+    left: 0px;
+}
+header .show-mobile span:first-of-type{
+    top:5px
+}
+header .show-mobile span:nth-of-type(2){
+    top:15px
+}
+header .show-mobile span:nth-of-type(3){
+    top:25px
+}
+header .show-mobile span:last-of-type{
+    margin-bottom: 0
+}
+.active-menu header .show-mobile span:nth-of-type(2){
+    opacity: 0
+}
+.active-menu header .show-mobile span:nth-of-type(1) {
+    transform: rotate(45deg);
+    top: 15px;
+}
+.active-menu header .show-mobile span:nth-of-type(3) {
+    transform: rotate(-45deg);
+    top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
